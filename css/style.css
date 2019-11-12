@@ -1,0 +1,56 @@
+
+/* begin global */
+*{
+	-webkit-box-sizing :border-box;
+	-moz-box-sizing :border-box;
+	box-sizing :border-box;
+}
+
+body {
+	
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+	margin-top:20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* end global */
+
+/* start navbar */
+
+.navbar {
+	background-color: #EEE: 
+}
+
+.navbar .brand{
+	float: left;
+	width: 40%;
+}
+
+.navbar .links {
+	float: left;
+	width: 60%;
+}
+
+.navbar .links li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+
+/*end navbar */
+
+/*my framework */
+.clearfix{
+	clear: both;
+}
+/*end framework */
