@@ -43,6 +43,12 @@
                 position: fixed;
                 top: 0px;
             }
+            table,
+            table tr th,
+            table tr td
+            {
+                border:1px solid #000;
+            }
         </style>
     </head>
     <body>
@@ -55,16 +61,39 @@
             <li>jQuery greatly simplifies JavaScript programming.</li>
             <li>jQuery is easy to learn.</li>
         </ul>
-
+        <center>
+         <table class="w3-table-all w3-large">
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Points</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                </tr>
+                <tr>
+                  <td>Adam</td>
+                  <td>Johnson</td>
+                  <td>67</td>
+                </tr>
+              </table>
+    </center>
         <h3>+ JQuery Syntax</h3>
         <p>Basic syntax is: $(selector).action()</p>
         <div>
             <pre>
-$(document).ready(function(){
-                    
-    // jQuery methods go here...
-                          
-});
+                $(document).ready(function(){
+                                    
+                    // jQuery methods go here...
+                                          
+                });
             </pre>
         </div>
 
