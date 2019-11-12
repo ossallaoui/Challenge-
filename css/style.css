@@ -7,7 +7,7 @@
 }
 
 body {
-	
+	background-color: #dcdcdc;
 }
 
 .container{
@@ -16,17 +16,13 @@ body {
 	margin-top:20px;
 }
 
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
+
 /* end global */
 
 /* start navbar */
 
 .navbar {
-	background-color: #EEE: 
+	background-color: #EEE;
 }
 
 .navbar .brand{
@@ -40,15 +36,39 @@ ul {
 }
 
 .navbar .links li {
-	text-decoration: none;
 	display: inline-block;
 	padding: 10px 15px;
 	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar .links a.active,
+.navbar .links a.active:hover{
+	color: #1abc9c;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar .links li a {
+	text-decoration: none;
 }
 
 
 /*end navbar */
 
+/* start slider */
+.slider {
+	background-image: url('../images/js.jpg');
+	height: 600px;
+
+	width: 1000px;
+
+
+}
+
+
+
+
+/* end slider */
 /*my framework */
 .clearfix{
 	clear: both;
