@@ -13,7 +13,6 @@ body {
 .container{
 	width: 1200px;
 	margin: auto;
-	margin-top:20px;
 
 }
 
@@ -51,6 +50,7 @@ body {
 
 .navbar .links li a {
 	text-decoration: none;
+	color: black;
 }
 
 
@@ -88,11 +88,12 @@ body {
 
 .frames a {
 	text-decoration: none;
+	color: blue;
 	
 }
  
  p {
- 	font-weight: 26px;
+ 	font-weight: bold;
  	  font-family: "Times New Roman", Times, serif;
  }
 
@@ -101,7 +102,7 @@ body {
 /* Start Contact Me */
 
 
-.contact {background-color: #dcdcdc61;overflow: hidden;margin-top: 50px;}
+.contact {background-color: #dcdcdc61;overflow: hidden;margin-top: 5px;}
 
 .contact .info{	width: 50%;	margin-right: 5%;}
 .contact h2 { color: #000 ;margin-left: 40px;}
