@@ -63,12 +63,12 @@ body {
 /*end navbar */
 
 /* start slider */
-.slider {
-	background-image: url('../images/js.jpg');
+.bxslider {
 	height: 600px;
 	width: 1020px;
 	margin: auto;
 	margin-bottom: 5px;
+	margin-left: 400px;
 }
 
 
