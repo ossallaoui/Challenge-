@@ -7,7 +7,7 @@
                 color: blue;
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 10vw;
-                margin-top: 295px;
+                margin-top: 105px;
             }
             ul {
                 text-align: center;
@@ -39,34 +39,73 @@
             }
             img {
                 width: 100%;
-                height: 300px;
-                position: fixed;
+                height: 500px;
                 top: 0px;
+            }
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                }
+
+                td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                }
+
+                tr:nth-child(even) {
+                background-color: #dddddd;
             }
         </style>
     </head>
     <body>
         <img src="https://i0.wp.com/jacklyons.me/wp-content/uploads/2017/07/Jquery-Logo.png?zoom=2&resize=1280%2C700&ssl=1" alt="No Image">
-        <h1>Jquery Lbrary</h1>
+        <h1>Jquery Library</h1>
 
         <h3>+ Introduction</h3>
+        <p>Jquery, ou jQuery, est une bibliothèque JavaScript gratuite, libre et multiplateforme. Compatible avec l'ensemble des navigateurs Web (Internet Explorer, Safari, Chrome, Firefox, etc.), elle a été conçue et développée en 2006 pour faciliter l'écriture de scripts. Il s'agit du framework JavaScript le plus connu et le plus utilisé. Il permet d'agir sur les codes HTML, CSS, JavaScript et AJAX et s'exécute essentiellement côté client. </p>
+        <table>
+            <tr>
+                <th colspan="3" style="text-indent:40%">jQuery</th>
+            </tr>
+          <tr>
+            <th>Original author(s)</th>
+            <th>John Resig</th>
+          </tr>
+          <tr>
+            <td>Initial release</td>
+            <td>August 26, 2006</td>
+          </tr>
+          <tr>
+            <td>Stable release</td>
+            <td>3.4.1 / (May 1, 2019)</td>
+          </tr>
+          <tr>
+            <td>Repository</td>
+            <td>github.com/jquery/jquery</td>
+          </tr>
+          <tr>
+            <td>Written in</td>
+            <td>JavaScript</td>
+          </tr>
+        
+        </table>
         <ul>
-            <li>jQuery is a JavaScript Library.</li>
-            <li>jQuery greatly simplifies JavaScript programming.</li>
-            <li>jQuery is easy to learn.</li>
+            <h3>Comment s'utilise le jQuery ? </h3>
+            <p>La bibliothèque jQuery figure aujourd'hui parmi les bibliothèques JavaScript les plus utilisées dans le monde pour le développement des sites Internet. Elle ne nécessite aucune installation particulière et peut être téléchargée directement depuis le site officiel de la bibliothèque. En théorie, des connaissances basiques en CSS, HTML et JavaScript et un simple éditeur de code ou n'importe quel logiciel FTP suffisent pour permettre de l'utiliser. Le jQuery permet de ne pas avoir à se préoccuper des différentes versions du JavaScript et donc, de limiter les tests qu'impose au programmeur l'utilisation de JavaScript. </p>
+            <h3>Les rôles du jQuery </h3>
+            <p>La bibliothèque jQuery permet, entre autres, de gagner en rapidité dans l'interaction avec le code HTML d'une page Web. Elle propose comme principales fonctionnalités : 
+                
+                la manipulation du Document Object Model (DOM)
+                la gestion des événements (mouvements de souris, clics, etc.) et de l'AJAX (architecture informatique) 
+                la création d'effets d'animation
+                la manipulation des feuilles de style en cascade
+                et bien d'autres encore.</p>
         </ul>
-
-        <h3>+ JQuery Syntax</h3>
-        <p>Basic syntax is: $(selector).action()</p>
-        <div>
-            <pre>
-$(document).ready(function(){
-                    
-    // jQuery methods go here...
-                          
-});
-            </pre>
         </div>
+        <img style="margin-top: 80px" src="jexam.jpg" alt="">
 
         <!-- Scripts for import only -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
