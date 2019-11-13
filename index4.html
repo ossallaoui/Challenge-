@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angular</title>
+		<style>
+			img{
+				width: 100% ;
+				margin: auto;
+			}
+			h1 {
+				text-align: center;
+				color: red ;
+				font-family: 'Times New Roman' , Times , serif;
+				font-size: 10vw;
+				margin-top:100px;
+			}
+			ul{
+				text-align: left;
+			}
+			ul li{
+				list-style-type: aucun;
+				line-height: 30px ;
+			}
+			ul li :: première lettre{
+				color: pourpre;
+				font-size: 27px;
+			}
+			h3{
+				text-align: left;
+				color: #e74c3c;
+				font-size: 30px;
+			}
+			p{
+				text-align: left;
+			}
+			div{
+				width: 300px;
+				height: 100px;
+				position: fixed;
+				top: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="https://miro.medium.com/max/4000/1*Jl0NsVkE7gihkyyTyKg2jA.jpeg">
+		<h1> Angular</h1>
+		<h3> + Introduction</h3>
+		<ul>
+			<li>Angular est une plateforme de développement qui permet de créer des applications web dynamiques et immersives.  Dans ce cours, vous apprendrez rapidement à créer les composantes de base d'une application Angular, avant d'enrichir vos applications en approfondissant vos connaissances de ce framework.  Vous apprendrez également à faire communiquer votre application avec un backend afin de créer une application web complète.</li>
+			<a href="https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular">-Voir plus..</a>
+			<li>Angular n'a pas de notion de "portée" ou de contrôleurs, au lieu de cela il utilise une hiérarchie de composants comme principale caractéristique architecturale4.
+Angular a une syntaxe d'expression différente, en se concentrant sur les "[ ]" pour la liaison des propriétés, et de "( )" pour les liaisons des événements5
+Modularité – beaucoup de fonctionnalités de base ont été déplacées vers des modules
+Angular recommande l'utilisation du langage TypeScript, créé par Microsoft, qui présente les caractéristiques suivantes:
+le principe de classe, à la base de la Programmation Orientée Objet
+le typage statique
+les génériques
+TypeScript est un sur-ensemble d'ECMAScript 6 (ES6), et est rétro-compatible avec ECMAScript 5 (c'est-à-dire: JavaScript). Angular comprend également les principes d'ES6 suivant :
+les fonctions anonymes
+les itérateurs
+boucles for-of
+générateurs dans le style du langage Python
+La réflexion
+Le chargement dynamique
+Compilation asynchrone des modèles
+Itératif rappels fournis par RxJS. RxJS limites de l'état de visibilité et de débogage, mais ces problèmes peuvent être résolus avec réactif add-ons comme ngReact ou ngrx.</li>
+<a href="https://fr.wikipedia.org/wiki/Angular">-Voir plus..</a>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Architecture_of_an_Angular_2_application.png">
+<li>Angular est un framework
+Contrairement à d'autres alternatives intéressantes telles que React, Angular n'est pas une "library" mais bien un framework avec une approche "batteries included".
+Angular fournit donc nativement tout le nécessaire pour produire une application entière avec une configuration standard :
+<li>Configuration de build et d'optimisation complète.</li>
+<li>Module d'animations.</li> 
+<li>Module de "routing".</li>
+<li>Module de formulaires.</li>
+<li>Debug.</li>
+<li>Tests unitaires et e2e.</li>
+<li>...</li>
+Il n'est donc pas nécessaire d'hésiter et de débattre le choix des modules de routing, de formulaires etc...
+Avec Angular, la majorité des applications ont la même structure de projet et la même "stack" d'outils.
+Les applications Angular sont donc homogènes et vous tomberez donc plus rarement sur des "cas particuliers".
+Dans la plupart des cas, vous éviterez les problèmes de compatibilité de dépendances en laissant l'équipe Angular s'en charger pour vous</li>
+<li>En contrepartie, voici un exemple de mise en place d'un "preprocessor" sass sur une app React:</li>
+<img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9vDDYxu6nH7FVBtFFS%2F-Lcb-8jBMI9IrO4r9CDp%2F-Lcb-Ly8qVf6APr6XpZb%2Freact-before-react-scripts.png?alt=media&token=ba6e9f79-317b-4c1d-b517-9ad77e269cb6">
+<a href="https://guide-angular.wishtack.io/pourquoi-angular">-Voir plus..</a>
+<h3>+Pourquoi Angular ?</h3>
+<li>Il y a plusieurs frameworks JavaScript très populaires aujourd’hui : Angular, React, Ember, Vue… les autres frameworks marchent très bien, ont beaucoup de succès et sont utilisés sur des sites extrêmement bien fréquentés, React et Vue notamment. Angular présente également un niveau de difficulté légèrement supérieur, car on utilise le TypeScript plutôt que JavaScript pur ou le mélange JS/HTML de React. Ainsi, quels sont donc les avantages d’Angular ?
+
+Angular est géré par Google — il y a donc peu de chances qu’il disparaisse, et l’équipe de développement du framework est excellente.
+
+Le TypeScript — ce langage permet un développement beaucoup plus stable, rapide et facile.
+
+Le framework Ionic — le framework permettant le développement d’applications mobiles multi-plateformes à partir d’une seule base de code — utilise Angular.
+
+Les autres frameworks ont leurs avantages également, mais Angular est un choix très pertinent pour le développement frontend</li>
+<h3>+La structure des compenents d'une application Angular</h3>
+<li>Les components sont les composantes de base d'une application Angular : une application est une arborescence de plusieurs components</li>
+<li>Imaginez la page web suivante :</li>
+<img src="https://user.oc-static.com/upload/2018/02/23/1519384317693_Screen%20Shot%202018-02-23%20at%2012.11.04.png">
+<li>Tout d'abord, notre  AppComponent  est notre component principal : tous les autres components de notre application seront emboîtés ou "nested" dans celui-ci.</li>
+<li>Pour cette structure, on peut imaginer un component pour la barre de menu, un autre pour la partie contenu et un dernier pour le menu à droite.  Il n'y a pas de règle d'or : je vous montrerai au cours des chapitres suivants comment réfléchir à votre structure afin de trouver la séparation des components la plus pertinente.</li>
+<h3>+Découvrez la structure du code</h3>
+<li>Le CLI crée énormément de fichiers au moment de la création d'une nouvelle application.  Le dossier  e2e  est généré pour les tests end-to-end, un sujet que je n'aborderai pas dans ce cours mais pour lequel vous <a href="https://www.qwant.com/?q=tests%20end-to-end&t=all">trouverez facilement</a> des ressources en ligne.  Ensuite, le dossier  node_modules  contient toutes les dépendances pour votre application : les fichiers source Angular et TypeScript, par exemple.</li>
+<li>Le dossier qui vous intéressera principalement est le dossier  src , où vous trouverez tous les fichiers sources pour votre application</li>
+<li>Plus d'information :</li>
+<a href="https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular/4668278-decouvrez-les-enjeux-autour-dangular">+Cours ANGULAR</a>
+		</ul>
+	</body>
+</html>
