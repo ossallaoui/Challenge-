@@ -29,7 +29,11 @@ body {
 	float: left;
 	width: 40%;
 }
-
+.navbar .brand a img{
+	width: 50px;
+	height:50px;
+	margin-left: 100px;
+}
 .navbar .links {
 	float: left;
 	width: 60%;
@@ -57,13 +61,6 @@ body {
 /*end navbar */
 
 /* start slider */
-.slider {
-	background-image: url('../images/js.jpg');
-	height: 600px;
-	width: 1020px;
-	margin: auto;
-
-}
 
 
 /* end slider */
