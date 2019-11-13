@@ -30,6 +30,12 @@ body {
 	width: 40%;
 }
 
+.navbar .brand img{
+	padding-top: 10px;
+	margin-left: 50px;
+	width: 60px;
+	height: 60px;
+}
 .navbar .links {
 	float: left;
 	width: 60%;
@@ -71,8 +77,11 @@ body {
 /* start frames */
 .framework{
 	background-color: #dcdcdc61;
+	font-weight: bold;
+	font-size: 17px;
 }
 .frames {
+	padding-top: 5px;
 	margin-top: 2px;
 	width: 33%;
 	display: inline-block;
@@ -83,6 +92,7 @@ body {
 .frames span img {
 	width: 100px;
 	height: 100px;
+	border:;
 
 }
 
@@ -92,10 +102,6 @@ body {
 	
 }
  
- p {
- 	font-weight: bold;
- 	  font-family: "Times New Roman", Times, serif;
- }
 
 /*end frames */
 
